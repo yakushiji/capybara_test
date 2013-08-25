@@ -34,4 +34,9 @@ CapybaraTest::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # specify where the assets are pre-compiled
+  config.assets.prefix = "assets_test"
+  config.action_controller.asset_host = "file://#{::Rails.root}/public"
+
 end
