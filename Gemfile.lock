@@ -54,6 +54,8 @@ GEM
     erubis (2.7.0)
     execjs (2.0.0)
     ffi (1.8.1)
+    garlicjs-rails (1.2.2)
+      railties (>= 3.1)
     hike (1.2.3)
     i18n (0.6.5)
     journey (1.0.4)
@@ -63,6 +65,7 @@ GEM
     json (1.8.0)
     launchy (2.3.0)
       addressable (~> 2.3)
+    localstorageshim-rails (1.0.2)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -147,8 +150,10 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   copy_tuner_client (~> 0.0.1)
+  garlicjs-rails
   jquery-rails
   launchy
+  localstorageshim-rails
   rails (= 3.2.12)
   rails-i18n (~> 3.0.0.pre)
   rspec-rails
