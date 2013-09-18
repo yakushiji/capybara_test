@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
+gem 'rails-i18n', '~> 3.0.0.pre' # For 3.x
+gem 'copy_tuner_client', '~> 0.0.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
